@@ -15,7 +15,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from speak1 import speak
+
 import pyautogui
 import subprocess
 import os
@@ -267,4 +267,5 @@ def whatsappsendmsg():
 
                 time.sleep(2)
 whatsappsendmsg()
+
 
